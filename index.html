@@ -8,11 +8,26 @@
     <title>JS</title>
 </head>
 <body>
-    <h1>People entered:</h1>
-    <h2 id = "count-el">0</h2>
+    <h1>Logic Gate Calculator</h1><br>
+    <br>
+    <p id = "desc">
+        <span>
+            This calculator registers the 2 numbers you give it(1 or 0),
+            and calculates the result of the logical operation the user specifies
+        </span>
+    </p><br>
+    <input type="text" id = "num1"> <input type="text" id = "num2"><br>
 
-    <button id = "increment-btn" type = "button" onclick="Increment()">Add Person</button>
 
-    <script src = "index.js"></script>
+    <button id = "XNOR" type = "button">XNOR</button>
+    <button id = "NOR" type = "button">NOR</button>
+    <button id = "XOR" type = "button">XOR</button>
+    <button id = "NAND" type = "button">NAND</button>
+    <button id = "AND" type = "button">AND</button>
+    <button id = "OR" type = "button">OR</button>
+
+    <p id = "result"></p>kura mi<br>
+
+    <script src = "logicGate.ts"></script>
 </body>
 </html>
