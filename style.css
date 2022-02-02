@@ -45,3 +45,15 @@ button {
 p{
     color: white;
 }
+
+h3{
+    display: inline;
+    background-color: white;
+    color: black;
+}
+
+h4{
+    display: inline;
+    background-color: white;
+    color: red;
+}
